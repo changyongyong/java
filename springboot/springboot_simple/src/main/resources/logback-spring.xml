@@ -8,7 +8,7 @@
 		value="%d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] %-5level %logger - %msg%n" />
 
 	<!-- 输出文件路径 -->
-	<property name="FILE_PATH" value="service" />
+	<property name="FILE_PATH" value="logs" />
 
 	<!-- 开发环境 -->
 	<springProfile name="dev">
