@@ -1,0 +1,15 @@
+#开发环境系统配置
+
+# TOMCAT (TomcatProperties)
+server:
+  port: 8081
+  context-path: /
+
+#spring相关配置
+spring:
+  application:
+    name: simple-service
+  # 环境
+  profiles:
+    active: dev
+    
