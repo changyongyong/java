@@ -1,0 +1,14 @@
+#环境配置
+
+#spring.profiles.active=test
+spring: 
+ test: test
+ profiles:
+  # 可以加载系统环境变量中的配置
+  # 做生产敏感数据处理，开发人员看不到生产的环境配置
+  # 也加载本身配置 具体顺序没测试过
+  # 谁也不会sb的把配置搞成的一样
+#  active: ${spring.test} 
+   active: ${PROFILES_ACTIVE:dev} 
+   
+
